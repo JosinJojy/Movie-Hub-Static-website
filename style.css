@@ -1,0 +1,556 @@
+body{
+    margin: 0;
+    background-color:hsl(242deg 43% 10%);
+}
+header{
+    width: 100%;
+    background-color: hsl(245deg 49% 15%)!important;
+    box-shadow: -1px 9px 20px -12px rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar1{
+    background-color: hsl(245deg 49% 15%)!important; 
+}
+#Home{
+    margin-left: -3%;
+    margin-right: -3%;
+}
+.main-image{
+    border-radius: 1rem;
+    padding-top: 1%;
+    margin-top: -0.5%;
+    color: black;
+}
+#TopRated{
+    color: white;
+    margin-top: 1%;
+}
+#avengers-logo1{
+    margin-top: -55%;
+    width: 8%;
+    margin-left: 4%;
+}
+#image1{
+    padding-top: 36%;
+    background: linear-gradient(hsl(0deg 0% 8% / 51%) ,hsl(0deg 0% 0%)),url(./avengers\ banner.jpg);
+    position: relative;
+    overflow: hidden;
+    background-size: contain;
+    background-size: cover;
+}
+#image2{
+    padding-top: 36%;
+    background: linear-gradient(hsl(0deg 0% 8% / 51%) ,hsl(0deg 0% 0%)),url(./spiderman-banner.jpg);
+    position: relative;
+    overflow: hidden;
+    background-size: contain;
+    background-size: cover;
+}
+#image3{
+    padding-top: 36%;
+    background: linear-gradient(hsl(0deg 0% 8% / 51%) ,hsl(0deg 0% 0%)),url(https://wallpaperaccess.com/full/1460156.jpg);
+    position: relative;
+    overflow: hidden;
+    background-size: contain;
+    background-size: cover;
+}
+#image4{
+    padding-top: 36%;
+    background: linear-gradient(hsl(0deg 0% 8% / 51%) ,hsl(0deg 0% 0%)),url(./black-panther.png);
+    position: relative;
+    overflow: hidden;
+    background-size: contain;
+    background-size: cover;
+}
+#image5{
+    padding-top: 36%;
+    background: linear-gradient(hsl(0deg 0% 8% / 51%) ,hsl(0deg 0% 0%)),url(./wanda-banner.jpg);
+    position: relative;
+    overflow: hidden;
+    background-size: contain;
+    background-size: cover;
+}
+#avengers-logo{
+    width: 38%;
+    margin-top: -35%;
+    margin-left: 5.5%;
+}
+#avengers-raiting{
+    width: 17%;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+#avengers-button{
+    margin-top: 7%;
+    margin-left: 13%;
+    width: 100%;
+    background: linear-gradient(to left,#12CBC4,#0652DD,#12CBC4);
+    font-weight: bold;
+    font-size: 95%;
+}
+#Spiderman-logo{
+    width: 51%;
+    margin-top: -44%;
+}
+#spidermain-raiting{
+    width: 17%;
+    margin-left: 15%;
+    margin-top: -11.5%;
+}
+#spiderman-button{
+    margin-top: 7.5%;
+    margin-left: 13%;
+    width: 100%;
+    background: linear-gradient(to left,hsl(178deg 84% 43%),hsl(219deg 95% 45%),hsl(178deg 84% 43%));
+    font-weight: bold;
+    font-size: 95%;
+}
+#Johnwick-logo{
+    margin-top: -32%;
+    width: 33%;
+    margin-left: 3%;
+}
+#Johnwick-raiting{
+    width: 17%;
+    margin-left: 9%;
+    margin-top: 3.5%;
+}
+#BlackPanther-logo{
+    width: 30%;
+    margin-top: -33.5%;
+    margin-left: 5%;
+}
+#BlackPanther-raiting{
+    width: 17%;
+    margin-left: 9%;
+    margin-top: 1%;
+}
+#BlackPanther-button{
+    margin-top: 4.5%;
+    margin-left: 13%;
+    width: 100%;
+    background: linear-gradient(to left,hsl(178deg 84% 43%),hsl(219deg 95% 45%),hsl(178deg 84% 43%));
+    font-weight: bold;
+    font-size: 95%; 
+}
+#WandaVision-logo{
+    width: 41%;
+    margin-top: -5%;
+    margin-left: 2%;
+}
+#MarvelLogo{
+    width: 6%;
+    margin-top: -31%;
+    margin-left: 18%;
+}
+#Wanda-Vision-raiting{
+    width: 17%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+#spiderman-farfromhome-movieIcon{
+    margin-top: -2.5%;
+}
+#Batman-movieIcon{
+    margin-top: -2%;
+}
+#Endgame-MovieIcon{
+    margin-top: 2%;
+}
+#Transformers-MovieIcon{
+    margin-top: 1%; 
+}
+#starwars-movieIcon{
+    margin-top: -2%;
+}
+
+
+#starwardiv{
+    overflow: hidden;
+    margin: 0 auto;
+}
+#starwardiv img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+#starwardiv:hover img {
+    transform: scale(1.5);
+}
+
+
+#spidermandiv1{
+    overflow: hidden;
+    margin: 0 auto;
+}
+#spidermandiv1 img{
+    width: 100%;
+    transition: 0.5s all ease-in-out; 
+}
+#spidermandiv1:hover img {
+    transform: scale(1.5);
+}
+
+
+#blodshotdiv{
+    overflow: hidden;
+    margin: 0 auto;
+}
+#blodshotdiv img{
+    width: 100%;
+    transition: 0.5s all ease-in-out; 
+}
+#blodshotdiv:hover img {
+    transform: scale(1.5);
+}
+
+#captainmarvel-div{
+    overflow: hidden;
+    margin: 0 auto;
+}
+#captainmarvel-div img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+#captainmarvel-div:hover img {
+    transform: scale(1.5);
+}
+
+#Endgame-div{
+    overflow: hidden;
+    margin: 0 auto;
+}
+#Endgame-div img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+#Endgame-div:hover img {
+    transform: scale(1.5);
+}
+
+#transformers-div{
+    overflow: hidden;
+    margin: 0 auto;
+}
+#transformers-div img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+#transformers-div:hover img {
+    transform: scale(1.5);
+}
+
+#batman-div{
+    overflow: hidden;
+    margin: 0 auto;
+}
+#batman-div img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+#batman-div:hover img {
+    transform: scale(1.5);
+}
+
+
+#Top-Rated-Title{
+    color: white;
+    font-weight: 700;
+    margin-top: 2%;
+}
+#RobbinHoodMovieIcon{
+    margin-top: -8.5%;
+}
+#Godzilla-MovieIcon{
+    margin-top: -6.5%;
+}
+#Inseption-MovieIcon{
+    margin-top: -7%;
+}
+#TheTommorowWar-MovieIcon{
+    margin-top: -7.5%;
+}
+#Aquaman-MovieIcon{
+    margin-top: -7%;
+}
+#FastNfurious9-MovieIcon{
+    margin-top: -36.5%;
+}
+#JusticeLeage-MovieIcon{
+    margin-top: -13%;
+}
+
+
+#image-hover-zoom{
+    overflow: hidden;
+    margin: 0 auto;
+}
+#image-hover-zoom img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+#image-hover-zoom:hover img {
+    transform: scale(1.5);
+}
+#Marvel-title{
+    color: white;
+    font-weight: 700;
+    margin-top: 2%;
+}
+#TheAvengers-Movie-Icon{
+    margin-top: -9.2%;
+}
+#Thor-Ragnarok-Movie-Icon{
+    margin-top: -8%;
+}
+#InfinityWar-MovieIcon{
+    margin-top: -7.85%;
+}
+#IronMan1-MovieIcon{
+    margin-top: -6%;
+}
+#Age-of-Ultron-MovieIcon{
+    margin-top: -9%;
+}
+#AntMan-and-Wasp-MovieIcon{
+    margin-top: -7.5%;
+}
+#CaptainAmerica-WinterSoldier-movieIcon{
+    margin-top: -0.9%;
+}
+#cartoon-title{
+    color: white;
+    font-weight: 700;
+    padding-bottom: 1%;
+    margin-left: 3%;
+}
+#cartoon{
+    margin-top: 1%;
+    margin-left: -3%;
+    margin-right: -3%;
+}
+#cartoon-image1{
+    padding-top: 40%;
+    background:url(./spider-man-into-the-spider-verse\ banner.jpg);
+    margin-top: -6%;
+    position: relative;
+    overflow: hidden;
+    background-size: contain;
+    background-size: cover;
+}
+#cartoon-image5{
+    padding-top: 49%;
+    background: url(./Luca-Movie-Banner.png);
+    margin-top: -15%;
+    position: relative;
+    overflow: hidden;
+    background-size: contain;
+    background-size: cover;
+}
+#cartoon-image3{
+    padding-top: 45%;
+    background: url(./Big-Hero\ 6\ Movie\ banner.png);
+    margin-top: -11%;
+    position: relative;
+    overflow: hidden;
+    background-size: contain;
+    background-size: cover;
+}
+#cartoon-image4{
+    padding-top: 41%;
+    background: url(./Toy\ story\ 4\ banner.jpg);
+    margin-top: -7%;
+    position: relative;
+    overflow: hidden;
+    background-size: contain;
+    background-size: cover;
+}
+#cartoon-image2{
+    padding-top: 41%;
+    background: url(./cars\ 3\ Movie\ Banner.jpg);
+    margin-top: -7%;
+    position: relative;
+    overflow: hidden;
+    background-size: contain;
+    background-size: cover;
+}
+#Upcoming-Title{
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#SpiderMan-Upcomig-Movie-Img{
+    margin-top: -1.5%;
+}
+#Thor-Upcomig-Movie-Img{
+    margin-top: -6.2%;
+}
+#Batman-Upcoming-Movie-Img{
+    margin-top: -5.7%;
+}
+#BlackWidow-UpcomingMovie-Img{
+    margin-top: -4%;
+    margin-bottom: -1.6%;
+}
+#Jungle-Cruise-Movie-Img{
+    margin-bottom: -7.5%;
+}
+#Shang-Chi-Movie-Img{
+    margin-bottom: -5.5%;
+}
+#Dune-Movie-Img{
+    margin-top: -13.25%;
+}
+#KingsMan-Movie-Img{
+    margin-top: -5%;
+    margin-bottom: -1%;
+}
+#footer1{
+    background-color: hsl(245deg 49% 15%)!important;
+    box-shadow: -1px 9px 20px 1px rgb(0 0 0);
+    margin-top: 3%;
+    padding-bottom: 3%;
+}
+#footer1-title1{
+    color: white;
+    margin-top: 1%;
+}
+.Footer-components{
+    color: white;
+}
+#Footer1-writing{
+    color: white;
+    font-size: 131%;
+}
+#comming-soon-Title{
+    color: white;
+    margin-left: 6%;
+    margin-top: -5%;
+}
+#PlayStore{
+    padding-top: 9%;
+    background-image: url(./google-play-store.png);
+    position: relative;
+    overflow: hidden;
+    background-size: contain;
+    background-size: cover;
+    width: 30%;
+    margin-left: 6%;
+}
+#AppStore{
+    padding-top: 9%;
+    background-image: url(./Apple\ app\ store.png);
+    position: relative;
+    overflow: hidden;
+    background-size: contain;
+    background-size: cover;
+    width: 30%;
+    margin-top: -9%;
+    margin-left: 38%;
+}
+#footer2{
+    background-color: hsl(242deg 70% 9%);
+}
+#contact-title{
+    color: white;
+    margin-top: 0%;
+}
+#Social-Media-Title{
+    padding-left: 29%;
+    color: hsl(0deg 0% 100%);
+    margin-top: -1%;
+}
+#FaceBook{
+    width: 4.5rem;
+    margin-left: auto;
+}
+#Instagram{
+    width: 4.5rem;
+}
+#Whatsapp{
+    width: 4.5rem;
+}
+#Twitter{
+    width: 4.5rem;
+}
+#GitHub{
+    width: 4.5rem;
+    margin-right: auto;
+}
+#copyright{
+    color: hsl(0deg 0% 100%);
+    font-weight: bold;
+    text-align: center;
+}
+#Into-Spider-Verse-Logo{
+    width: 44%;
+    margin-top: -31%;
+    padding-top: -3%;
+    padding-bottom: 21.2%;
+    margin-left: 55%;
+}
+#Cars-3-Logo{
+    width: 24%;
+    margin-top: -30%;
+    margin-left: 67%;
+    padding-bottom: 14.3%;
+}
+#Big-Hero-6-logo{
+    width: 19%;
+    margin-top: -30%;
+    margin-left: 3%;
+    border-radius: 2%;
+    padding-bottom: 24.7%;
+}
+#Toy-Story-Logo{
+    width: 18%;
+    margin-top: -31%;
+    margin-left: 59%;
+    padding-bottom: 17.1%;
+}
+#Luca-Logo{
+    width: 21%;
+    margin-left: 66%;
+    margin-top: -32%;
+    padding-bottom: 21.1%;
+}
+.Watch-Trailer{
+    color: hsl(0deg 0% 100%);
+    font-weight: 900;
+}
+#cartoon-button{
+    background-color: hsl(0deg 0% 100%);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(to left,hsl(178deg 84% 43%),hsl(147deg 66% 45%),hsl(178deg 84% 43% / 92%));
+    margin-top: -5%;
+    border-radius: 0.3rem;
+}
+#HomeBanner-buttons{
+    background-color: hsl(0deg 0% 100%);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(to left,hsl(178deg 84% 43%),hsl(147deg 66% 45%),hsl(178deg 84% 43% / 92%));
+    margin-top: -5%;
+    border-radius: 0.3rem;
+}
+#HomeBanner-buttons{
+    background-color: hsl(0deg 0% 100%);
+    text-align: center;
+    margin-left: 4%;
+    background: linear-gradient(to left,hsl(178deg 84% 43%),hsl(219deg 95% 45%),hsl(178deg 84% 43%));
+    margin-top: 2%;
+    border-radius: 0.3rem;
+}
+a:hover {
+    color: black;
+}
+
+
+

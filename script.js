@@ -1,0 +1,158 @@
+$('#Main-Banner').owlCarousel({
+    loop:true,
+    margin:10,
+    dots:false,
+    autoplay:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+$('#Sub-Banner').owlCarousel({
+    loop:true,
+    margin:10,
+    dots:false,
+    autoplay:true,
+    autoplayTimeout:8000,
+    responsive:{
+        0:{
+            items:3
+        },
+        600:{
+            items:4
+        },
+        1000:{
+            items:4
+        },
+        1400:{
+            items:5
+        }
+    }
+})
+$('#Sub-Banner2').owlCarousel({
+    loop:true,
+    margin:10,
+    dots:false,
+    autoplay:true,
+    autoplayTimeout:10000,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
+        },
+        1400:{
+            items:5
+        }
+    }
+})
+$('#Sub-Banner3').owlCarousel({
+    loop:true,
+    margin:10,
+    dots:false,
+    autoplay:true,
+    autoplayTimeout:16000,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
+        },
+        1400:{
+            items:5
+        }
+    }
+})
+$('#Main-Banner2').owlCarousel({
+    loop:true,
+    margin:10,
+    dots:false,
+    autoplay:true,
+    autoplayTimeout:22000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+$('#Sub-Banner4').owlCarousel({
+    loop:true,
+    margin:10,
+    dots:false,
+    autoplay:true,
+    autoplayTimeout:27000,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
+        },
+        1400:{
+            items:5
+        }
+    }
+})
+
+$(document).ready(function(){
+    $('#FaceBook').mouseenter(function(){
+        $('#FaceBook').css({"margin-top" : "-1%"})
+    })
+    $('#FaceBook').mouseleave(function(){
+        $('#FaceBook').css({"margin-top":"0%"})
+    })
+
+    $('#Instagram').mouseenter(function(){
+        $('#Instagram').css({"margin-top" : "-1%"})
+    })
+    $('#Instagram').mouseleave(function(){
+        $('#Instagram').css({"margin-top":"0%"})
+    })
+
+    $('#Whatsapp').mouseenter(function(){
+        $('#Whatsapp').css({"margin-top" : "-1%"})
+    })
+    $('#Whatsapp').mouseleave(function(){
+        $('#Whatsapp').css({"margin-top":"0%"})
+    })
+
+    $('#Twitter').mouseenter(function(){
+        $('#Twitter').css({"margin-top" : "-1%"})
+    })
+    $('#Twitter').mouseleave(function(){
+        $('#Twitter').css({"margin-top":"0%"})
+    })
+
+    $('#GitHub').mouseenter(function(){
+        $('#GitHub').css({"margin-top" : "-1%"})
+    })
+    $('#GitHub').mouseleave(function(){
+        $('#GitHub').css({"margin-top":"0%"})
+    })
+
+})
+
